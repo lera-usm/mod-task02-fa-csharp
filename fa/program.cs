@@ -101,7 +101,8 @@ namespace fans
      IsAcceptState = false,
      Transitions = new Dictionary<char, State>()
     };
-     public FA2()
+     State InitialState = a;
+        public FA2()
      {
            a.Transitions['0'] = d;
            a.Transitions['1'] = b;
